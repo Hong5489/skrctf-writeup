@@ -63,6 +63,11 @@ To solve this is quite easy, just a very long name, simply type an answer then c
 
 ![image2](image2.png)
 
+You can try convert `1633771873` to hex is `0x61616161`
+```py
+>>> hex(1633771873)
+'0x61616161'
+```
 ## Unintended Solution
 The another solution is just guess the number by using the same timestamp of the binary
 
