@@ -48,16 +48,16 @@ int main () {
 
 As you can see, this challenge is about "guessing" the correct number in order to get the flag
 
-I actually make a trap here haha, usually people think of buffer overflow always gonna using the `gets` function, actually `scanf("%s")` is also vulnerable
-
-Remember I saw this in a CTF competition, first time I also dun know this will cause buffer overflow
+I actually make a trap here haha, usually people think of buffer overflow always gonna using the `gets` function, actually **`scanf("%s")` is also vulnerable**
 
 Only difference is `scanf` will stop when see white space, `gets` will stop when see newline or EOF
+
+Remember I saw this in a CTF competition, first time I also dun know this will cause buffer overflow
 
 Actually there are many function will cause buffer overflow if you not use properly
 
 ## Intended Solution
-The intended solution actually is to overflow the variable `num` and then the number is not longer random
+The intended solution actually is to **overflow the variable `num` and then the number is not longer random**
 
 To solve this is quite easy, just a very long name, simply type an answer then copy the correct answer, overflow again paste the correct answer:
 
