@@ -46,7 +46,7 @@ The shortest solution to solve this, is to run the command: `unzip -p chall.zip`
 unzip -p chall.zip
 # SKR{H1dd3n_S3cr375_1N_D1r3c70rY}
 ```
-More complex solution is to copy the data from hexeditor and deflate the data (Can refer my writeup)
+More complex solution is to copy the data from hexeditor and inflate the data (Can refer my writeup)
 
 ## Unintended solution
 
